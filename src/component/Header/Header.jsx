@@ -1,5 +1,6 @@
 import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -12,9 +13,12 @@ const Header = () => {
            
              <ul>
              <li className='md:flex gap-10 justify-items-center text-2xl font-medium'>
-                    <a href="#">Statistics</a>
-                    <a href="#">Applied Jobs</a>
-                    <a href="#">Blog</a>
+                   
+                    <Link to='/'>Home</Link>
+                    <Link to='/statistics'>Statistics</Link>
+                    <Link to='/applied'>Applied</Link>
+                    <Link to='/blog'>Blog</Link>
+                   
                 </li>
              </ul>
                 
