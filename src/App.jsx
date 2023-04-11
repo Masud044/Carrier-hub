@@ -7,6 +7,7 @@ import Banner from './component/Banner/Banner'
 import JobList from './component/JobList/JobList';
 import Features from './component/Features/Features';
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
        <Banner></Banner>
        <JobList></JobList>
        <Features></Features>
+       
     </div>
   )
 }
