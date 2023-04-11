@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
 
-        <nav className='md:flex justify-items-center justify-between container mx-auto py-4'>
+        <nav className='md:flex justify-items-center justify-between container mx-auto py-4 m-2'>
 
 
             <h1 className='text-4xl font-bold'>Futures Developer</h1>

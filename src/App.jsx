@@ -5,6 +5,7 @@ import './App.css'
 import Header from './component/Header/Header'
 import Banner from './component/Banner/Banner'
 import JobList from './component/JobList/JobList';
+import Features from './component/Features/Features';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
        <Header></Header>
        <Banner></Banner>
        <JobList></JobList>
+       <Features></Features>
     </div>
   )
 }
