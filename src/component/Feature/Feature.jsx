@@ -2,7 +2,7 @@ import React from 'react';
 
 const Feature = ({ feature }) => {
    // console.log(feature.id)
-    const {id,name, fulltime, place, companyName, subtitle, btn, remote, salary, location, icon } = feature;
+    const {id,name, fulltime, place, companyName, subtitle, remote, salary, location, icon } = feature;
     return (
         <div className='mb-10 border-solid border-2 border-slate-600 pl-3 pt-3 pb-3 m-2'>
 
@@ -25,7 +25,7 @@ const Feature = ({ feature }) => {
                 </div>
             </div>
 
-            <button className='p-2 border-solid border-2 border-slate-600 rounded-lg bg-indigo-700 text-white'>{btn}</button>
+            <button className='p-2 border-solid border-2 border-slate-600 rounded-lg bg-indigo-700 text-white'>View Details</button>
 
            
 

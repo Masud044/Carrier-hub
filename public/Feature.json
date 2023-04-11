@@ -4,7 +4,7 @@
     { "id": 3, "name": "Software Engineer", "salary": "Salary : 100K - 150K", "icon":"/src/assets/Icons/Frame.png", "fulltime": "Fulltime", "companyName": "/src/assets/tesla-9 1.png","remote":"Onsite","subtitle":"tesla","place":"/src/assets/Icons/Location Icon.png ","btn":"View Details","location":"Dhaka, Bangladesh" },
     { "id": 4, "name": "Full Stack Developer", "salary": "Salary : 100K - 150K", "icon":"/src/assets/Icons/Frame.png", "fulltime": "Fulltime", "companyName": "/src/assets/Group 10021.png","remote":"Remote","subtitle":"Google LLC","place":"/src/assets/Icons/Location Icon.png ","btn":"View Details","location":"Dhaka, Bangladesh" },
     { "id": 5, "name": "Network Administrator", "salary": "Salary : 100K - 150K", "icon":"/src/assets/Icons/Frame.png", "fulltime": "Fulltime", "companyName": "MICROSOFT","remote":"Remote","subtitle":"Microsoft","place":"/src/assets/Icons/Location Icon.png ","btn":"View Details","location":"Dhaka, Bangladesh" },
-    { "id": 6, "name": "DevOps Engineer","salary": "Salary : 100K - 150K", "icon":"/src/assets/Icons/Frame.png", "fulltime": "Fulltime", "companyName": "Oracle Corporation","remote":"Remote","subtitle":"Oracle","place":"/src/assets/Icons/Location Icon.png ","btn":"View Details","location":"Dhaka, Bangladesh" }
+    { "id": 6, "name": "DevOps Engineer","salary": "Salary : 100K - 150K", "icon":"/src/assets/Icons/Frame.png", "fulltime": "Fulltime", "companyName": "Oracle Corporation","remote":"Remote","subtitle":"Oracle","place":"/src/assets/Icons/Location Icon.png ","location":"Dhaka, Bangladesh" }
    
   ]
     
