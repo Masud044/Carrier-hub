@@ -3,7 +3,7 @@ import React from 'react';
 const Applied = () => {
     return (
         <div>
-             <h1>this is applied of the page in the legend of suuskjfs</h1>
+             <h1 className='text-center text-2xl font-semibold'>Applied Jobs</h1>
         </div>
     );
 };
