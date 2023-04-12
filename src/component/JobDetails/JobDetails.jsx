@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import JobDetail from '../JobDetail/JobDetail';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
