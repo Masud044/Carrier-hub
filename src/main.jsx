@@ -13,22 +13,10 @@ import Home from './component/Home/Home';
 import Applied from './component/Applied/Applied';
 import Blog from './component/Blog/Blog';
 import First from './component/First/First';
+import JobDetails from './component/JobDetails/JobDetails';
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Home></Home>,
-   
-//   },
-//   {
-//     path:'/statistics',
-//     element:<Statistics></Statistics>
-//   },
-//   {
-//     path:'/applied',
-//     element:<Applied></Applied>
-//   }
-// ]);
+
+
 
 const router = createBrowserRouter([
       {
@@ -50,7 +38,14 @@ const router = createBrowserRouter([
           {
             path:'blog',
             element:<Blog></Blog>
+          },
+          {
+            path:'jobdetailes/:jobdetailesId',
+            element:<JobDetails></JobDetails>,
+            loader:({params})=>fetch(`/Feature.json`),
+            
           }
+         
 
         ]
       }
