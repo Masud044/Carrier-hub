@@ -16,7 +16,7 @@ const Applied = () => {
           const saved = getShopingCart();
           const applied=[];
           for(const id in saved){
-             const added = feature.find(f=>f.id=id);
+             const added = feature.find(f=>f.id==id);
 
               if(added){
                  applied.push(added);
@@ -30,7 +30,13 @@ const Applied = () => {
     
     return (
         <div>
-             <h1 className='text-center text-2xl font-semibold'>Applied Jobs</h1>
+             <h1 className='text-center text-2xl font-semibold '>Applied Jobs</h1>
+             <div className='container mx-auto flex justify-end mb-5'>
+               <button className='bg-emerald-600 p-3 rounded-lg mr-4'>remote</button>
+               <button className='bg-emerald-600 p-3 rounded-lg'>onsite</button>
+             </div>
+
+              
 
               <div className='w-3/4 mx-auto pt-5'>
                 {

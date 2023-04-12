@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { addTodb } from '../Fakedata/fake';
@@ -65,7 +65,7 @@ const JobDetails = () => {
                         <img src={iaddr} alt="" />
                         <p>{address}</p>
                     </div>
-                     <button onClick={()=>setdata(detail?.id)}  className='bg-emerald-800 w-full mt-8 p-2 text-white rounded-lg'>Apply Now</button>
+                    <Link to='/applied'><button onClick={()=>setdata(detail?.id)}  className='bg-emerald-800 w-full mt-8 p-2 text-white rounded-lg'>Apply Now</button></Link> 
 
                 </div>
             </div>
