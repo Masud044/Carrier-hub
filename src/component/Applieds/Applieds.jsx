@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Applieds = ({jb}) => {
     
@@ -26,7 +27,7 @@ const Applieds = ({jb}) => {
                 </div>
             </div>
 
-             <button className='p-2 border-solid border-2 border-slate-600 rounded-lg bg-indigo-700 text-white'>  View Details</button>
+            <Link to='/'><button className='p-2 border-solid border-2 border-slate-600 rounded-lg bg-indigo-700 text-white'>  View Details</button></Link> 
 
 
            
