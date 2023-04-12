@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { addTodb } from '../Fakedata/fake';
 
 const JobDetails = () => {
     const jobData = useLoaderData();
@@ -18,7 +19,12 @@ const JobDetails = () => {
         }
     }, [])
     
-    const { name, jbdes, jbres, iphone, iemail, iaddr, email, phone, address, education, exp, icon, place, salary } = detail;
+    const { id,name, jbdes, jbres, iphone, iemail, iaddr, email, phone, address, education, exp, icon, place, salary } = detail;
+
+    const setdata =(jbid)=>{
+       
+         addTodb(jbid);
+    }
 
     return (
         <div className='container mx-auto mt-40'>
@@ -59,7 +65,7 @@ const JobDetails = () => {
                         <img src={iaddr} alt="" />
                         <p>{address}</p>
                     </div>
-                     <button className='bg-emerald-800 w-full mt-8 p-2 text-white rounded-lg'>Apply Now</button>
+                     <button onClick={()=>setdata(detail?.id)}  className='bg-emerald-800 w-full mt-8 p-2 text-white rounded-lg'>Apply Now</button>
 
                 </div>
             </div>

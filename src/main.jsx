@@ -14,6 +14,7 @@ import Applied from './component/Applied/Applied';
 import Blog from './component/Blog/Blog';
 import First from './component/First/First';
 import JobDetails from './component/JobDetails/JobDetails';
+import Error from './component/Error/Error';
 
 
 
@@ -22,14 +23,17 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
+        errorElement:<Error></Error>,
         children: [
           {
             path:'/',
             element:<First></First>
+            
           },
            {
              path:'statistics',
-             element:<Statistics></Statistics>
+             element:<Statistics></Statistics>,
+            
            },
            {
             path:'applied',
